@@ -10,28 +10,51 @@ A machine learning project for estimating crowd density from images using comput
 
 ```
 CROWD_DENSITY_ESTIMATION/
+
 │
+
 ├── data/                  # Dataset storage
+
 │   ├── raw/               # Raw input images
+
 │   │   └── sample_crowd.jpg
+
 │   └── processed/         # Preprocessed/cleaned data
+
 │
+
 ├── notebooks/             # Jupyter notebooks for experiments
+
 │   ├── data/              # Notebook-specific datasets
+
 │   └── crowd_density_demo.ipynb
+
 │
+
 ├── src/                   # Source code
+
 │   ├── __pycache__/       # Python cache files
+
 │   ├── tests/             # Unit tests
+
 │   │   └── test_estimator.py
+
 │   ├── app.py             # Streamlit/FastAPI app entry point
+
 │   ├── estimator.py       # Core crowd density estimation logic
+
 │   └── main.py            # Main script to run pipeline
+
 │
+
 ├── .gitignore             # Git ignore rules
+
 ├── README.md              # Project documentation
+
 ├── requirements.txt       # Python dependencies
+
 └── temp.jpg               # Temporary image file
+
 ```
 
 ---
